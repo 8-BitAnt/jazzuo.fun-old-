@@ -61,19 +61,19 @@ h1{
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 20px;
+  image-rendering: -webkit-optimize-contrast;
 }
 
-img{
-  padding: 10px;
+ img{
+  image-rendering: -webkit-optimize-contrast;
 }
 
 marquee{
   color: white;
-  margin-top: 10px;
   font-family: 'Source Code Pro', monospace;
   font-size: 24px;
   background-image: url(images/bg-black.gif);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #shadowBox {
@@ -126,6 +126,7 @@ marquee{
 
 .back{
   color: red;
+  text-decoration: none;
 }
 
 .GameInfo{
@@ -142,7 +143,9 @@ marquee{
 }
 
 .GameImg{
-  max-width:80%
+  max-width:80%;
+  border: ridge white 10px;
+  margin-top: 20px;
 }
 
 .download{
@@ -160,4 +163,88 @@ marquee{
 
 .downloada{
   color: green;
+  text-decoration: none;
+}
+
+.newgrounds{
+  text-decoration: none;
+  color: #fda238;
+  background-color: black;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: solid #fda238 3px;
+  font-family: badComic;
+  margin-bottom: 20px;
+}
+
+.gamejolt{
+  color: #ccff00;
+  background-color: black;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: solid #ccff00 3px;
+  font-family: badComic;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.steam{
+  color: #54a5d4;
+  background-color: black;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: solid #54a5d4 3px;
+  font-family: badComic;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.genres{
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.disInfo{
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.discord{
+  border-radius: 15px;
+  border: white 3px solid;
+}
+
+.bigtext{
+  font-size: 28px;
+}
+
+.centerimg{
+  vertical-align: text-bottom;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.emojiimg{
+  vertical-align: baseline;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.nounderline{
+  text-decoration: none;
+}
+
+.bigbunga{
+  color: gray;
 }
