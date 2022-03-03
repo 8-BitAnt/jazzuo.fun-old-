@@ -74,6 +74,8 @@ marquee{
   font-size: 24px;
   background-image: url(images/bg-black.gif);
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #shadowBox {
